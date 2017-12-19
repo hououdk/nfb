@@ -1,0 +1,71 @@
+Custom CSS fil til mit Nordisk Film site, ting jeg ikke kunne få lov til at ændre via mulighederne på temaet.
+
+body {
+	background-image: none !important;
+	background: #000 !important;
+}
+
+.mk-product.style-default .meta a {
+    color: #ffffff !important;
+}
+
+.wpcf7-form-control-wrap .wpcf7-text {
+	
+        border-radius: 10px;
+	background-color: #fff;
+	height: 60px;
+	line-height: 50px;
+	width: 98%;
+	margin-bottom: 20px;
+        margin-left: 6px;
+        font-weight: 300;
+	font-size: 18px;
+        Color: #888888 !important;
+}
+
+.wpcf7-form-control.wpcf7-submit  {
+	
+        border-radius: 10px;
+	background-color: #ef5142;
+	height: 60px;
+	line-height: 35px;
+	width: 98%;
+	margin-bottom: 20px;
+        margin-left: 6px;
+        font-weight: bold;
+	font-size: 18px;
+        Color: #fff !important;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover  {
+	
+        border-radius: 10px;
+	background-color: #ef7c71;
+	height: 60px;
+	line-height: 35px;
+	width: 98%;
+	margin-bottom: 20px;
+        font-weight: bold;
+	font-size: 18px;
+        Color: #fff !important;
+}
+
+.woocommerce-ordering { display:none; }
+
+.woocommerce #reviews #comments h2, .woocommerce-page #reviews #comments h2 {
+    clear: none;
+    color: #888;
+}
+
+.woocommerce #reviews h3, .woocommerce-page #reviews h3 {
+    margin: 0;
+    color: #888;
+}
+
+.single-product .product_meta a {
+    color: #952122;
+}
+
+.mk-box-icon-2-content {
+	min-height: 180px;
+}
